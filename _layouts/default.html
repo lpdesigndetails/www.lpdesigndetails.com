@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
 
-    <!-- Bootstrap -->
     <link href="{{ site.baseurl }}public/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}public/css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,30 +18,42 @@
   </head>
   <body>
 
-    <div class="container">
-      <ul class="nav nav-pills">
-        <li><a href="{{ site.baseurl }}">LP Design Details</a></li>
-        <li{% if page.permalink == 'contact/' %} class="active"{% endif %}><a href="{{ site.baseurl }}contact/">Contact</a></li>
-        <li{% if page.permalink == 'bio/' %} class="active"{% endif %}><a href="{{ site.baseurl }}bio/">Bio</a></li>
-        <li{% if page.permalink == 'portfolio/residential/' or page.permalink == 'portfolio/commercial/' or page.permalink == 'portfolio/specialprojects/' %} class="active"{% endif %}><a class="dropdown-toggle" data-toggle="dropdown"
-          href="{{ site.baseurl }}portfolio/"> Portfolio<span class="caret"></span>
-        </a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}portfolio/residential/">Residential</a> <a href="{{ site.baseurl }}portfolio/commercial/">Commercial</a> <a href="{{ site.baseurl }}portfolio/specialprojects/">Special Projects</a></li>
-          </ul></li>
-        <li{% if page.permalink == '3d/' %} class="active"{% endif %}><a href="{{ site.baseurl }}3d/">3D</a></li>
-        <li{% if page.permalink == 'the3rs/' %} class="active"{% endif %}><a href="{{ site.baseurl }}the3rs/">The 3 Rs</a></li>
-        <li{% if page.permalink == 'cad/' %} class="active"{% endif %}><a href="{{ site.baseurl }}cad/">CAD</a></li>
-        <li{% if page.permalink == 'staging/' %} class="active"{% endif %}><a href="{{ site.baseurl }}staging/">Staging</a></li>
-        <li{% if page.permalink == 'b4andafter/' %} class="active"{% endif %}><a href="{{ site.baseurl }}b4andafter/">B4 & After</a></li>
-      </ul>
-    </div>
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.baseurl }}">LP Design Details</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li{% if page.permalink == 'contact/' %} class="active"{% endif %}><a href="{{ site.baseurl }}contact/">Contact</a></li>            
+              <li{% if page.permalink == 'bio/' %} class="active"{% endif %}><a href="{{ site.baseurl }}bio/">Bio</a></li>
+              <li class="dropdown"{% if page.permalink == 'portfolio/residential/' or page.permalink == 'portfolio/commercial/' or page.permalink == 'portfolio/specialprojects/' %} class="active"{% endif %}>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}portfolio/">Portfolio<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li{% if page.permalink == 'portfolio/residential/' %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio/residential/">Residential</a></li>
+                    <li{% if page.permalink == 'portfolio/commercial/' %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio/commercial/">Commercial</a></li>
+                    <li{% if page.permalink == 'portfolio/specialprojects/' %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio/specialprojects/">Special Projects</a></li>
+                  </ul>
+              </li>
+              <li{% if page.permalink == '3d/' %} class="active"{% endif %}><a href="{{ site.baseurl }}3d/">3D</a></li>
+              <li{% if page.permalink == 'the3rs/' %} class="active"{% endif %}><a href="{{ site.baseurl }}the3rs/">The 3 Rs</a></li>
+              <li{% if page.permalink == 'cad/' %} class="active"{% endif %}><a href="{{ site.baseurl }}cad/">CAD</a></li>
+              <li{% if page.permalink == 'staging/' %} class="active"{% endif %}><a href="{{ site.baseurl }}staging/">Staging</a></li>
+              <li{% if page.permalink == 'b4andafter/' %} class="active"{% endif %}><a href="{{ site.baseurl }}b4andafter/">B4 & After</a></li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
 
 {{ content }}
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{ site.baseurl }}public/vendor/jquery/dist/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ site.baseurl }}public/vendor/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
