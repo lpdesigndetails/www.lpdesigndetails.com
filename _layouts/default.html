@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap -->
+    <link href="{{ site.baseurl }}public/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li><a href="{{ site.baseurl }}">LP Design Details</a></li>
+        <li{% if page.permalink == 'contact/' %} class="active"{% endif %}><a href="{{ site.baseurl }}contact/">Contact</a></li>
+        <li{% if page.permalink == 'bio/' %} class="active"{% endif %}><a href="{{ site.baseurl }}bio/">Bio</a></li>
+        <li{% if page.permalink == 'portfolio/residential/' or page.permalink == 'portfolio/commercial/' or page.permalink == 'portfolio/specialprojects/' %} class="active"{% endif %}><a class="dropdown-toggle" data-toggle="dropdown"
+          href="{{ site.baseurl }}portfolio/"> Portfolio<span class="caret"></span>
+        </a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl }}portfolio/residential/">Residential</a> <a href="{{ site.baseurl }}portfolio/commercial/">Commercial</a> <a href="{{ site.baseurl }}portfolio/specialprojects/">Special Projects</a></li>
+          </ul></li>
+        <li{% if page.permalink == '3d/' %} class="active"{% endif %}><a href="{{ site.baseurl }}3d/">3D</a></li>
+        <li{% if page.permalink == 'the3rs/' %} class="active"{% endif %}><a href="{{ site.baseurl }}the3rs/">The 3 Rs</a></li>
+        <li{% if page.permalink == 'cad/' %} class="active"{% endif %}><a href="{{ site.baseurl }}cad/">CAD</a></li>
+        <li{% if page.permalink == 'staging/' %} class="active"{% endif %}><a href="{{ site.baseurl }}staging/">Staging</a></li>
+        <li{% if page.permalink == 'b4andafter/' %} class="active"{% endif %}><a href="{{ site.baseurl }}b4andafter/">B4 & After</a></li>
+      </ul>
+    </div>
+
+{{ content }}
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{{ site.baseurl }}public/vendor/jquery/dist/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ site.baseurl }}public/vendor/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
