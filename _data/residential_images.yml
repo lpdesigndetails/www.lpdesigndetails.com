@@ -1,0 +1,6 @@
+- name: test1.png
+  description: blahtest1
+- name: test2.png
+  description: blahtest2
+- name: test3.png
+  description: blahtest3
