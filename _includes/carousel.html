@@ -7,10 +7,10 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+  <div class="carousel-inner container">
 {% for image in include.images %}
     <div class="item{% if forloop.index0 == 0%} active{% endif %}">
-      <img src="{{ site.baseurl }}public/images/{{ image.name }}" alt="{{ image.description }}">
+      <img src="{{ site.baseurl }}public/images/{{ image.name }}" alt="{{ image.description }}"{% if image.height %} data-height="{{ image.height }}"{% endif%}{% if image.width %} data-width="{{ image.width }}"{% endif%}>
       <div class="carousel-caption">
         <h3>{{ image.description }}</h3>
       </div>
