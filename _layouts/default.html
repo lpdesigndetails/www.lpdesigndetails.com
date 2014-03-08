@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
 
-    <link href="{{ site.baseurl }}public/vendor-tweaked/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}public/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="{{ site.baseurl }}public/css/main.css" rel="stylesheet">
 {% if page.css %}
     <link href="{{ site.baseurl }}public/css/{{ page.css }}.css" rel="stylesheet">    
@@ -34,7 +34,7 @@
             <a class="navbar-brand" href="{{ site.baseurl }}">LP Design Details</a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
               <li{% if page.permalink == 'contact/' %} class="active"{% endif %}><a href="{{ site.baseurl }}contact/">Contact</a></li>            
               <li{% if page.permalink == 'bio/' %} class="active"{% endif %}><a href="{{ site.baseurl }}bio/">Bio</a></li>
               <li class="dropdown"{% if page.permalink == 'portfolio/residential/' or page.permalink == 'portfolio/commercial/' or page.permalink == 'portfolio/specialprojects/' %} class="active"{% endif %}>

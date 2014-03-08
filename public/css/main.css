@@ -2,9 +2,28 @@
    Browse Happy prompt
    ========================================================================== */
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+.browsehappy {  
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
+
+
+@media (min-width: 768px){
+/* move down */
+.navbar-brand {
+  margin-top: 4px;
+}
+/* increase height of nav bar */
+.nav > li {
+  margin-top: 3px;
+/*  margin-right: 48.5px; */
+}
+.nav > li:last-child {
+  margin-top: 3px;
+/*  margin-right: 0px; */
+}
+
+}
+} 
