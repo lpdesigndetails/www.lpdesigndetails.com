@@ -2,9 +2,10 @@ jQuery(document).ready(function() {
 
   var setMargins = function(selector, marginTop, marginBottom, marginLeft) {
     selector.css( {'margin-top' : marginTop + 'px', 'margin-bottom' : marginBottom + 'px', 'margin-left' : marginLeft + 'px'} );
+    window.scrollTo(0, 1);
   }
 
-  var windowSizeListener = function() {
+  var resizeCarousel = function() {
     windowHeight = $(window).outerHeight();
     navbarHeight = $('.navbar').outerHeight();
 
@@ -55,6 +56,6 @@ jQuery(document).ready(function() {
     });
   };
 
-  windowSizeListener();
-  $(window).on('resize', windowSizeListener);
+  $(window).on('load resize orientationchange', resizeCarousel);
+
 });
