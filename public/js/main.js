@@ -26,28 +26,28 @@ jQuery(document).ready(function() {
             var image = $(element);
             var originalImageHeight = image.data('height');
             var originalImageWidth = image.data('width');
-            var imageAspectRatio = originalImageWidth / originalImageHeight;
+            var imageAspectRatio = defaultWidth / defaultHeight;
 
             /*
-             console.log('originalImageHeight' + '=' + originalImageHeight);
-             console.log('originalImageWidth' + '=' + originalImageWidth);
-             console.log('imageAspectRatio' + '=' + imageAspectRatio);
+             console.log('defaultHeight' + '=' + defaultHeight);
+             console.log('defaultWidth' + '=' + defaultWidth);
+             console.log('aspectRatio' + '=' + aspectRatio);
              */
 
-            if (containerAspectRatio > imageAspectRatio) { /* height will be constraining factor */
+            if (containerAspectRatio > aspectRatio) { /* height will be constraining factor */
                 image.height(imageHeight);
-                var scaledImageWidth = (imageHeight / originalImageHeight) * originalImageWidth;
+                var scaledImageWidth = (imageHeight / defaultHeight) * defaultWidth;
                 image.width(scaledImageWidth);
-                var targetWidth = (imageHeight / originalImageHeight) * originalImageWidth;
+                var targetWidth = (imageHeight / defaultHeight) * defaultWidth;
                 var marginTop = 0;
                 var marginBottom = 0;
                 var marginLeft = (imageWidth - targetWidth) / 2;
                 setMargins(image, marginTop, marginBottom, marginLeft);
             } else { /* width will be constraining factor */
-                var scaledImageHeight = (imageWidth / originalImageWidth) * originalImageHeight;
+                var scaledImageHeight = (imageWidth / defaultWidth) * defaultHeight;
                 image.height(scaledImageHeight);
                 image.width(imageWidth);
-                var targetHeight = (imageWidth / originalImageWidth) * originalImageHeight;
+                var targetHeight = (imageWidth / defaultWidth) * defaultHeight;
                 var marginTop = (imageHeight - targetHeight) / 2;
                 var marginBottom = marginTop;
                 var marginLeft = 0;

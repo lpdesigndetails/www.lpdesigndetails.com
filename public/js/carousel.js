@@ -1,59 +1,45 @@
 jQuery(document).ready(function() {
 
-  var setMargins = function(selector, marginTop, marginBottom, marginLeft) {
-    selector.css( {'margin-top' : marginTop + 'px', 'margin-bottom' : marginBottom + 'px', 'margin-left' : marginLeft + 'px'} );
+  var setSizeAndMargins = function(selector, height, width, marginTop, marginBottom, marginLeft) {
+    selector.height(height);
+    selector.width(width);
+    selector.children().height(height);
+    selector.children().width(width);
+    selector.css( {'margin-top' : marginTop + 'px', 'margin-bottom' : marginBottom + 'px', 'margin-left' : 'auto', 'margin-right' : 'auto'} );
     window.scrollTo(0, 1);
-  }
+  };
 
   var resizeCarousel = function() {
-    windowHeight = $(window).outerHeight();
-    navbarHeight = $('.navbar').outerHeight();
+    var windowHeight = $(window).outerHeight(),
+        navbarHeight = $('.navbar').outerHeight(),
+        carouselHeight = windowHeight - navbarHeight,
+        carouselWidth = $('.carousel').width(),
+        carouselAspectRatio = carouselWidth / carouselHeight;
 
-    carouselHeight = windowHeight - navbarHeight;
-    carouselWidth = $('.carousel-inner.container').width();
-    carouselAspectRatio = carouselWidth / carouselHeight;
-
-    /*
-    console.log(' ');
-    console.log('windowHeight' + '=' + windowHeight)
-    console.log('navbarHeight' + '=' + navbarHeight);
-    console.log('carouselHeight' + '=' + carouselHeight);
-    console.log('carouselWidth' + '=' + carouselWidth);
-    console.log('carouselAspectRatio' + '=' + carouselAspectRatio);
-    */
-
-    $('.carousel-inner > .item > img').each(function(index, element) {
-      image = $(element);
-      originalImageHeight = image.data('height');
-      originalImageWidth = image.data('width');
-      imageAspectRatio = originalImageWidth / originalImageHeight;
-
-      /*
-      console.log('originalImageHeight' + '=' + originalImageHeight);
-      console.log('originalImageWidth' + '=' + originalImageWidth);
-      console.log('imageAspectRatio' + '=' + imageAspectRatio);
-      */
-
-      if (carouselAspectRatio > imageAspectRatio) { /* height will be constraining factor */
-        image.height(carouselHeight);
-        scaledImageWidth = (carouselHeight / originalImageHeight) * originalImageWidth;
-        image.width(scaledImageWidth);
-        targetWidth = (carouselHeight / originalImageHeight) * originalImageWidth;
-        marginTop = 0;
-        marginBottom = 0;
-        marginLeft = (carouselWidth - targetWidth) / 2;
-        setMargins(image, marginTop, marginBottom, marginLeft);
+    $('.carousel-inner > .item').each(function(index, element) {
+      var item = $(element),
+          optimalHeight = item.data('optimal-height'),
+          optimalWidth = item.data('optimal-width'),
+          aspectRatio = optimalWidth / optimalHeight,
+          scaledImageWidth,
+          scaledImageHeight,
+          marginTop,
+          marginBottom,
+          marginLeft;
+      if (carouselAspectRatio > aspectRatio) { /* height will be constraining factor */
+        scaledImageWidth = (carouselHeight / optimalHeight) * optimalWidth;
+        scaledImageHeight = carouselHeight;
+        marginTop = marginBottom = 0;
+        marginLeft = (carouselWidth - scaledImageWidth) / 2;
       } else { /* width will be constraining factor */
-        scaledImageHeight = (carouselWidth / originalImageWidth) * originalImageHeight;
-        image.height(scaledImageHeight);
-        image.width(carouselWidth);
-        targetHeight = (carouselWidth / originalImageWidth) * originalImageHeight;
-        marginTop = (carouselHeight - targetHeight) / 2;
-        marginBottom = marginTop;
+        scaledImageWidth = carouselWidth;
+        scaledImageHeight = (carouselWidth / optimalWidth) * optimalHeight;
+        marginTop = marginBottom = (carouselHeight - scaledImageHeight) / 2;
         marginLeft = 0;
-        setMargins(image, marginTop, marginBottom, marginLeft);
       }
+      setSizeAndMargins(item, scaledImageHeight, scaledImageWidth, marginTop, marginBottom, marginLeft);
     });
+
   };
 
   $(window).on('load resize orientationchange', resizeCarousel);
@@ -63,8 +49,8 @@ jQuery(document).ready(function() {
 $(document).ready(function() {  
       Hammer($('.carousel-inner').get(0)).on('dragleft', function() {
         $('.right.carousel-control').click();
-      })
+      });
       Hammer($('.carousel-inner').get(0)).on('dragright', function() {
         $('.left.carousel-control').click();
-      })
+      });
  });
