@@ -66,5 +66,7 @@ body {
     }
     #footer {
         display:none;
+        height: 0px;
+        min-height: 0px;
     }
 }
