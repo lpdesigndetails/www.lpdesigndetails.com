@@ -58,3 +58,13 @@ body {
 .copyright {
     margin-top: 8px;
 }
+
+/* don't show footer on mobile */
+@media (max-width: 767px){
+    body {
+        margin-bottom: 0px;
+    }
+    #footer {
+        display:none;
+    }
+}
