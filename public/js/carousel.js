@@ -12,7 +12,8 @@ jQuery(document).ready(function() {
   var resizeCarousel = function() {
     var windowHeight = $(window).outerHeight(),
         navbarHeight = $('.navbar').outerHeight(),
-        carouselHeight = windowHeight - navbarHeight,
+        footerHeight = $('#footer').outerHeight(),
+        carouselHeight = windowHeight - navbarHeight - footerHeight,
         carouselWidth = $('.carousel').width(),
         carouselAspectRatio = carouselWidth / carouselHeight;
 
