@@ -3,4 +3,18 @@ layout: default
 title: LP Design Details
 js: main
 ---
-<img class="maximized" src="{{ site.baseurl }}public/images/Home_1.jpg" height="1px" width="1px" data-optimal-width="400" data-optimal-height="300"/>
+<img
+     class="maximized"
+     src="{{ site.baseurl }}public/images/index_0_xs.jpg"
+     srcset="{{ site.baseurl }}public/images/index_0_lg.jpg 1200px,
+             {{ site.baseurl }}public/images/index_0_md.jpg 992px,
+             {{ site.baseurl }}public/images/index_0_sm.jpg 768px,
+             {{ site.baseurl }}public/images/index_0_xs.jpg 480px"
+     sizes="(min-width: 1200px) 1200px,
+            (min-width: 992px) 992px,
+            (min-width: 768px) 768px,
+            (min-width: 480px) 480px,
+            480 px"
+     alt="Home Page"
+     data-optimal-width="1200"
+     data-optimal-height="800"/>
