@@ -9,8 +9,24 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner container">
 {% for image in include.images %}
-    <div class="item{% if forloop.index0 == 0%} active{% endif %}"{% if image.height %} data-optimal-height="{{ image.height }}"{% endif%}{% if image.width %} data-optimal-width="{{ image.width }}"{% endif%}>
-      <img src="{{ site.baseurl }}public/images/{{ image.name }}" alt="{{ image.description }}">
+    <div class="item{% if forloop.index0 == 0%} active{% endif %}">
+      <picture>
+          <img
+              class="maximized"
+              src="{{ site.baseurl }}public/images/{{ image.xs-name }}"
+              srcset="{{ site.baseurl }}public/images/{{ image.lg-name }} {{ image.lg-width }}px,
+                {{ site.baseurl }}public/images/{{ image.md-name }} {{ image.md-width }}px,
+                {{ site.baseurl }}public/images/{{ image.sm-name }} {{ image.sm-width }}px,
+                {{ site.baseurl }}public/images/{{ image.xs-name }} {{ image.xs-width }}px"
+              sizes="(min-width: 1200px) 1200px,
+                (min-width: 992px) 992px,
+                (min-width: 768px) 768px,
+                (min-width: 480px) 480px,
+                480 px"
+              alt="{{ image.description }}"
+              data-optimal-width="{{ image.optimal-width }}"
+              data-optimal-height="{{ image.optimal-height }}"/>
+      </picture>
     </div>
 {% endfor %}
   </div>

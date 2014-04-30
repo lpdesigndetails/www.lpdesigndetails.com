@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
       contentWidth = $('#content').width(),
       contentAspectRatio = contentWidth / contentHeight;
 
-    $('#content > .maximized').each(function(index, element) {
+    $('img.maximized').each(function(index, element) {
       var item = $(element),
         optimalWidth = item.data('optimal-width'),
         optimalHeight = item.data('optimal-height'),
