@@ -6,4 +6,4 @@ lsi: false
 pygments: true
 safe: true
 timezone: America/Chicago
-exclude: [ node_modules ]
+exclude: [ node_modules, src ]

@@ -10,26 +10,37 @@
 }
 
 
-@media (min-width: 768px){
-/* move down */
-.navbar-brand {
-  margin-top: 4px;
-}
-/* increase height of nav bar */
-.nav > li {
-  margin-top: 3px;
-/*  margin-right: 48.5px; */
-}
-.nav > li:last-child {
-  margin-top: 3px;
-/*  margin-right: 0px; */
+.contact-list {
+    margin-top: 20px;
 }
 
+@media (min-width: 768px){
+    /* move down */
+    .navbar-brand {
+      margin-top: 4px;
+    }
+    /* increase height of nav bar */
+    .nav > li {
+      margin-top: 3px;
+    /*  margin-right: 48.5px; */
+    }
+    .nav > li:last-child {
+      margin-top: 3px;
+    /*  margin-right: 0px; */
+    }
+
+    .contact-list {
+        font-size: 18px;
+        margin-top: 50px;
+    }
 }
+
+
 
 .navbar {
     margin-bottom: 0px;
 }
+
 
 .carousel-inner {
     padding-right: 0px;
