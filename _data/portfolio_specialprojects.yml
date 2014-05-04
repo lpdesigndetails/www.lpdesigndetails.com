@@ -1,0 +1,44 @@
+- xs-name: portfolio_specialprojects_13-xs.jpg
+  xs-width: 480
+  sm-name: portfolio_specialprojects_13-sm.jpg
+  sm-width: 768
+  md-name: portfolio_specialprojects_13-md.jpg
+  md-width: 992
+  lg-name: portfolio_specialprojects_13-lg.jpg
+  lg-width: 1200
+  description: Portfolio - Special Projects 13
+  optimal-width: 1200
+  optimal-height: 783
+- xs-name: portfolio_specialprojects_14-xs.jpg
+  xs-width: 480
+  sm-name: portfolio_specialprojects_14-sm.jpg
+  sm-width: 768
+  md-name: portfolio_specialprojects_14-md.jpg
+  md-width: 992
+  lg-name: portfolio_specialprojects_14-lg.jpg
+  lg-width: 1200
+  description: Portfolio - Special Projects 14
+  optimal-width: 1200
+  optimal-height: 783
+- xs-name: portfolio_specialprojects_15-xs.jpg
+  xs-width: 480
+  sm-name: portfolio_specialprojects_15-sm.jpg
+  sm-width: 768
+  md-name: portfolio_specialprojects_15-md.jpg
+  md-width: 992
+  lg-name: portfolio_specialprojects_15-lg.jpg
+  lg-width: 1200
+  description: Portfolio - Special Projects 15
+  optimal-width: 1200
+  optimal-height: 783
+- xs-name: portfolio_specialprojects_16-xs.jpg
+  xs-width: 480
+  sm-name: portfolio_specialprojects_16-sm.jpg
+  sm-width: 768
+  md-name: portfolio_specialprojects_16-md.jpg
+  md-width: 992
+  lg-name: portfolio_specialprojects_16-lg.jpg
+  lg-width: 1200
+  description: Portfolio - Special Projects 16
+  optimal-width: 1200
+  optimal-height: 783
