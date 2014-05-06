@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 
   var resize = function() {
     var windowHeight = $(window).outerHeight(),
-      headerHeight = $('.navbar').outerHeight(),
+      headerHeight = $('#header').outerHeight(),
       footerHeight = $('#footer').outerHeight(),
       contentHeight = windowHeight - headerHeight - footerHeight,
       contentWidth = $('#content').width(),
