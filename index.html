@@ -2,18 +2,6 @@
 layout: default
 title: LP Design Details
 ---
-<img
-  class="maximized"
-  src="{{ site.baseurl }}public/images/index_00_xs.jpg"
-  srcset="{{ site.baseurl }}public/images/index_00_lg.jpg 1200px,
-    {{ site.baseurl }}public/images/index_00_md.jpg 992px,
-    {{ site.baseurl }}public/images/index_00_sm.jpg 768px,
-    {{ site.baseurl }}public/images/index_00_xs.jpg 480px"
-  sizes="(min-width: 1200px) 1200px,
-    (min-width: 992px) 992px,
-    (min-width: 768px) 768px,
-    (min-width: 480px) 480px,
-    480 px"
-  alt="Home Page"
-  data-optimal-width="1200"
-  data-optimal-height="800"/>
+{% include carousel-inline.css images=site.data.index %}
+<div id="img_index_01-xs" class="backgroundsize">
+</div>

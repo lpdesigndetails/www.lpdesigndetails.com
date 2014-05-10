@@ -1,66 +1,72 @@
-- xs-name: cad_01-xs.jpg
+- xs-name: cad_01-xs
   xs-width: 480
-  sm-name: cad_01-sm.jpg
+  sm-name: cad_01-sm
   sm-width: 768
-  md-name: cad_01-md.jpg
+  md-name: cad_01-md
   md-width: 909
-  lg-name: cad_01-lg.jpg
+  lg-name: cad_01-lg
   lg-width: 909
   description: CAD 1
   optimal-width: 909
   optimal-height: 781
-- xs-name: cad_02-xs.jpg
+  extension: jpg
+- xs-name: cad_02-xs
   xs-width: 480
-  sm-name: cad_02-sm.jpg
+  sm-name: cad_02-sm
   sm-width: 768
-  md-name: cad_02-md.jpg
+  md-name: cad_02-md
   md-width: 992
-  lg-name: cad_02-lg.jpg
+  lg-name: cad_02-lg
   lg-width: 1200
   description: CAD 2
   optimal-width: 1200
   optimal-height: 907
-- xs-name: cad_03-xs.jpg
+  extension: jpg
+- xs-name: cad_03-xs
   xs-width: 480
-  sm-name: cad_03-sm.jpg
+  sm-name: cad_03-sm
   sm-width: 768
-  md-name: cad_03-md.jpg
+  md-name: cad_03-md
   md-width: 992
-  lg-name: cad_03-lg.jpg
+  lg-name: cad_03-lg
   lg-width: 1200
   description: CAD 3
   optimal-width: 1200
   optimal-height: 726
-- xs-name: cad_04-xs.jpg
+  extension: jpg
+- xs-name: cad_04-xs
   xs-width: 480
-  sm-name: cad_04-sm.jpg
+  sm-name: cad_04-sm
   sm-width: 768
-  md-name: cad_04-md.jpg
+  md-name: cad_04-md
   md-width: 992
-  lg-name: cad_04-lg.jpg
+  lg-name: cad_04-lg
   lg-width: 1200
   description: CAD 4
   optimal-width: 1200
   optimal-height: 477
-- xs-name: cad_05-xs.jpg
+  extension: jpg
+- xs-name: cad_05-xs
   xs-width: 480
-  sm-name: cad_05-sm.jpg
+  sm-name: cad_05-sm
   sm-width: 768
-  md-name: cad_05-md.jpg
+  md-name: cad_05-md
   md-width: 992
-  lg-name: cad_05-lg.jpg
+  lg-name: cad_05-lg
   lg-width: 1200
   description: CAD 5
   optimal-width: 1200
   optimal-height: 596
-- xs-name: cad_06-xs.jpg
+  extension: jpg
+- xs-name: cad_06-xs
   xs-width: 480
-  sm-name: cad_06-sm.jpg
+  sm-name: cad_06-sm
   sm-width: 768
-  md-name: cad_06-md.jpg
+  md-name: cad_06-md
   md-width: 992
-  lg-name: cad_06-lg.jpg
+  lg-name: cad_06-lg
   lg-width: 1200
   description: CAD 6
   optimal-width: 1200
   optimal-height: 869
+  extension: jpg

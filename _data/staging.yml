@@ -1,99 +1,108 @@
-- xs-name: staging_01-xs.jpg
+- xs-name: staging_01-xs
   xs-width: 480
-  sm-name: staging_01-sm.jpg
+  sm-name: staging_01-sm
   sm-width: 768
-  md-name: staging_01-md.jpg
+  md-name: staging_01-md
   md-width: 992
-  lg-name: staging_01-lg.jpg
+  lg-name: staging_01-lg
   lg-width: 1200
   description: Staging 01
   optimal-width: 1200
   optimal-height: 900
-- xs-name: staging_02-xs.jpg
+  extension: jpg
+- xs-name: staging_02-xs
   xs-width: 480
-  sm-name: staging_02-sm.jpg
+  sm-name: staging_02-sm
   sm-width: 768
-  md-name: staging_02-md.jpg
+  md-name: staging_02-md
   md-width: 992
-  lg-name: staging_02-lg.jpg
+  lg-name: staging_02-lg
   lg-width: 1200
   description: Staging 02
   optimal-width: 1200
   optimal-height: 900
-- xs-name: staging_03-xs.jpg
+  extension: jpg
+- xs-name: staging_03-xs
   xs-width: 240
-  sm-name: staging_03-sm.jpg
+  sm-name: staging_03-sm
   sm-width: 323
-  md-name: staging_03-md.jpg
+  md-name: staging_03-md
   md-width: 560
-  lg-name: staging_03-lg.jpg
+  lg-name: staging_03-lg
   lg-width: 506
   description: Staging 03
   optimal-width: 560
   optimal-height: 747
-- xs-name: staging_04-xs.jpg
+  extension: jpg
+- xs-name: staging_04-xs
   xs-width: 480
-  sm-name: staging_04-sm.jpg
+  sm-name: staging_04-sm
   sm-width: 768
-  md-name: staging_04-md.jpg
+  md-name: staging_04-md
   md-width: 992
-  lg-name: staging_04-lg.jpg
+  lg-name: staging_04-lg
   lg-width: 1200
   description: Staging 04
   optimal-width: 1200
   optimal-height: 900
-- xs-name: staging_05-xs.jpg
+  extension: jpg
+- xs-name: staging_05-xs
   xs-width: 480
-  sm-name: staging_05-sm.jpg
+  sm-name: staging_05-sm
   sm-width: 768
-  md-name: staging_05-md.jpg
+  md-name: staging_05-md
   md-width: 992
-  lg-name: staging_05-lg.jpg
+  lg-name: staging_05-lg
   lg-width: 1200
   description: Staging 05
   optimal-width: 1200
   optimal-height: 900
-- xs-name: staging_07-xs.jpg
+  extension: jpg
+- xs-name: staging_07-xs
   xs-width: 240
-  sm-name: staging_07-sm.jpg
+  sm-name: staging_07-sm
   sm-width: 323
-  md-name: staging_07-md.jpg
+  md-name: staging_07-md
   md-width: 560
-  lg-name: staging_07-lg.jpg
+  lg-name: staging_07-lg
   lg-width: 506
   description: Staging 07
   optimal-width: 560
   optimal-height: 747
-- xs-name: staging_08-xs.jpg
+  extension: jpg
+- xs-name: staging_08-xs
   xs-width: 480
-  sm-name: staging_08-sm.jpg
+  sm-name: staging_08-sm
   sm-width: 768
-  md-name: staging_08-md.jpg
+  md-name: staging_08-md
   md-width: 992
-  lg-name: staging_08-lg.jpg
+  lg-name: staging_08-lg
   lg-width: 1200
   description: Staging 08
   optimal-width: 1200
   optimal-height: 900
-- xs-name: staging_09-xs.jpg
+  extension: jpg
+- xs-name: staging_09-xs
   xs-width: 240
-  sm-name: staging_09-sm.jpg
+  sm-name: staging_09-sm
   sm-width: 323
-  md-name: staging_09-md.jpg
+  md-name: staging_09-md
   md-width: 560
-  lg-name: staging_09-lg.jpg
+  lg-name: staging_09-lg
   lg-width: 506
   description: Staging 09
   optimal-width: 560
   optimal-height: 747
-- xs-name: staging_10-xs.jpg
+  extension: jpg
+- xs-name: staging_10-xs
   xs-width: 480
-  sm-name: staging_10-sm.jpg
+  sm-name: staging_10-sm
   sm-width: 768
-  md-name: staging_10-md.jpg
+  md-name: staging_10-md
   md-width: 992
-  lg-name: staging_10-lg.jpg
+  lg-name: staging_10-lg
   lg-width: 1200
   description: Staging 10
   optimal-width: 1200
   optimal-height: 900
+  extension: jpg

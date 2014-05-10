@@ -52,3 +52,21 @@ exiftool -all= image.jpg
 to size
 convert index_1_original.jpg -resize 768x512 index_0_sm.jpg
 
+
+
+Sauce Targets:
+
+Windows -   IE8* x
+            IE9 x
+            IE10 x
+            IE11 x
+            Firefox n x
+            Chrome n x
+OS X -      iPhone 7.1 x
+            iPad 7.1 x
+            Safari 7 x
+            Firefox n x
+            Chrome n x
+Linux -     Android 4.3 x
+            Firefox n
+            Chrome n

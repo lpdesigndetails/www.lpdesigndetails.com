@@ -4,8 +4,7 @@
     "hammerjs": "1.0.7",
     "jquery": "1.11.0",
     "bootstrap": "3.1.1",
-    "picturefill": "2.0.0-beta",
     "Font-Awesome": "FortAwesome/Font-Awesome#4.0.3",
-    "object-fit": "0.3.1"
+    "background-size-polyfill" : "louisremi/background-size-polyfill#0.2.0"
   }
 }

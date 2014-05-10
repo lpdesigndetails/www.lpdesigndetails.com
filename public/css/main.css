@@ -1,3 +1,43 @@
+
+
+/* http://stackoverflow.com/a/5776719 */
+
+html,body,#wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  position: relative;
+}
+
+#header, #content, #footer {
+  position: absolute;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+}
+#content {
+  top: 50px;
+  bottom: 40px;
+  width: 100%;
+}
+#footer {
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  min-height: 40px;
+}
+
+.carousel, .carousel-inner {
+  height: 100%;
+}
+
+
+
+
 .browsehappy {
   margin: 0.2em 0;
   background: #FFFF00;
@@ -6,26 +46,8 @@
   text-align: center;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 40px;
-}
-
-#header {
-  margin-bottom: 0px;
-}
-
 .copyright {
   margin-top: 8px;
-}
-
-.carousel-inner {
-  padding-right: 0px;
-  padding-left: 0px;
 }
 
 .contact-list {
@@ -36,32 +58,7 @@ body {
   color: #E2E2E2;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  min-height: 40px;
-}
-
-img.maximized {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 @media (min-width: 768px) {
-  .navbar-brand {
-    margin-top: 4px;
-  }
-
-  .nav > li {
-    margin-top: 3px;
-  }
-
-  .nav > li:last-child {
-    margin-top: 3px;
-  }
 
   .contact-list {
     font-size: 18px;
@@ -75,9 +72,40 @@ img.maximized {
     margin-bottom: 0px;
   }
 
+  #content {
+    bottom: 0px;
+  }
+
   #footer {
     display: none;
     height: 0px;
     min-height: 0px;
   }
+}
+
+.carousel-inner.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* non-transparent background, now that drop-down menu doesn't push down content */
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  background-color: #f8f8f8;
+}
+
+/* don't want gap between header and drop-down menu, more apparent now that drop-down menu doesn't push down content */
+/* then push it up another pixel because now that have non-clear background, it covers the navbar border otherwise */
+.navbar-nav {
+  margin-top: -1px;
+}
+
+/* don't show spaces between drop down menu and other menu lis, now that background can't be clear because we aren't relative in content id'd area */
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.dropdown-menu > .active > a {
+  color: #555;
 }

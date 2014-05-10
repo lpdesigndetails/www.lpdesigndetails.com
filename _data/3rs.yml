@@ -1,110 +1,120 @@
-- xs-name: 3rs_01-xs.jpg
+- xs-name: 3rs_01-xs
   xs-width: 240
-  sm-name: 3rs_01-sm.jpg
+  sm-name: 3rs_01-sm
   sm-width: 323
-  md-name: 3rs_01-md.jpg
+  md-name: 3rs_01-md
   md-width: 560
-  lg-name: 3rs_01-lg.jpg
+  lg-name: 3rs_01-lg
   lg-width: 506
   description: 3 Rs 1
   optimal-width: 506
   optimal-height: 675
-- xs-name: 3rs_02-xs.jpg
+  extension: jpg
+- xs-name: 3rs_02-xs
   xs-width: 201
-  sm-name: 3rs_02-sm.jpg
+  sm-name: 3rs_02-sm
   sm-width: 271
-  md-name: 3rs_02-md.jpg
+  md-name: 3rs_02-md
   md-width: 469
-  lg-name: 3rs_02-lg.jpg
+  lg-name: 3rs_02-lg
   lg-width: 424
   description: 3 Rs 2
   optimal-width: 424
   optimal-height: 674
-- xs-name: 3rs_03-xs.jpg
+  extension: jpg
+- xs-name: 3rs_03-xs
   xs-width: 186
-  sm-name: 3rs_03-sm.jpg
+  sm-name: 3rs_03-sm
   sm-width: 250
-  md-name: 3rs_03-md.jpg
+  md-name: 3rs_03-md
   md-width: 433
-  lg-name: 3rs_03-lg.jpg
+  lg-name: 3rs_03-lg
   lg-width: 392
   description: 3 Rs 3
   optimal-width: 392
   optimal-height: 675
-- xs-name: 3rs_04-xs.jpg
+  extension: jpg
+- xs-name: 3rs_04-xs
   xs-width: 199
-  sm-name: 3rs_04-sm.jpg
+  sm-name: 3rs_04-sm
   sm-width: 268
-  md-name: 3rs_04-md.jpg
+  md-name: 3rs_04-md
   md-width: 463
-  lg-name: 3rs_04-lg.jpg
+  lg-name: 3rs_04-lg
   lg-width: 419
   description: 3 Rs 4
   optimal-width: 419
   optimal-height: 674
-- xs-name: 3rs_05-xs.jpg
+  extension: jpg
+- xs-name: 3rs_05-xs
   xs-width: 240
-  sm-name: 3rs_05-sm.jpg
+  sm-name: 3rs_05-sm
   sm-width: 323
-  md-name: 3rs_05-md.jpg
+  md-name: 3rs_05-md
   md-width: 560
-  lg-name: 3rs_05-lg.jpg
+  lg-name: 3rs_05-lg
   lg-width: 506
   description: 3 Rs 5
   optimal-width: 506
   optimal-height: 675
-- xs-name: 3rs_06-xs.jpg
+  extension: jpg
+- xs-name: 3rs_06-xs
   xs-width: 240
-  sm-name: 3rs_06-sm.jpg
+  sm-name: 3rs_06-sm
   sm-width: 323
-  md-name: 3rs_06-md.jpg
+  md-name: 3rs_06-md
   md-width: 560
-  lg-name: 3rs_06-lg.jpg
+  lg-name: 3rs_06-lg
   lg-width: 506
   description: 3 Rs 6
   optimal-width: 506
   optimal-height: 675
-- xs-name: 3rs_07-xs.jpg
+  extension: jpg
+- xs-name: 3rs_07-xs
   xs-width: 240
-  sm-name: 3rs_07-sm.jpg
+  sm-name: 3rs_07-sm
   sm-width: 323
-  md-name: 3rs_07-md.jpg
+  md-name: 3rs_07-md
   md-width: 560
-  lg-name: 3rs_07-lg.jpg
+  lg-name: 3rs_07-lg
   lg-width: 506
   description: 3 Rs 7
   optimal-width: 506
   optimal-height: 675
-- xs-name: 3rs_08-xs.jpg
+  extension: jpg
+- xs-name: 3rs_08-xs
   xs-width: 480
-  sm-name: 3rs_08-sm.jpg
+  sm-name: 3rs_08-sm
   sm-width: 768
-  md-name: 3rs_08-md.jpg
+  md-name: 3rs_08-md
   md-width: 992
-  lg-name: 3rs_08-lg.jpg
+  lg-name: 3rs_08-lg
   lg-width: 1200
   description: 3 Rs 8
   optimal-width: 1200
   optimal-height: 800
-- xs-name: 3rs_09-xs.jpg
+  extension: jpg
+- xs-name: 3rs_09-xs
   xs-width: 240
-  sm-name: 3rs_09-sm.jpg
+  sm-name: 3rs_09-sm
   sm-width: 323
-  md-name: 3rs_09-md.jpg
+  md-name: 3rs_09-md
   md-width: 560
-  lg-name: 3rs_09-lg.jpg
+  lg-name: 3rs_09-lg
   lg-width: 506
   description: 3 Rs 9
   optimal-width: 506
   optimal-height: 675
-- xs-name: 3rs_10-xs.jpg
+  extension: jpg
+- xs-name: 3rs_10-xs
   xs-width: 480
-  sm-name: 3rs_10-sm.jpg
+  sm-name: 3rs_10-sm
   sm-width: 768
-  md-name: 3rs_10-md.jpg
+  md-name: 3rs_10-md
   md-width: 992
-  lg-name: 3rs_10-lg.jpg
+  lg-name: 3rs_10-lg
   lg-width: 1200
   description: 3 Rs 10
   optimal-width: 1200
   optimal-height: 800
+  extension: jpg
