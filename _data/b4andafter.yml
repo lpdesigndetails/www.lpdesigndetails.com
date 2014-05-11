@@ -1,262 +1,196 @@
-- xs-name: b4andafter_01-xs
+- name-base: b4andafter_01
   xs-width: 240
-  sm-name: b4andafter_01-sm
   sm-width: 323
-  md-name: b4andafter_01-md
   md-width: 560
-  lg-name: b4andafter_01-lg
   lg-width: 506
   description: B4 & After 1
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_02-xs
+- name-base: b4andafter_02
   xs-width: 480
-  sm-name: b4andafter_02-sm
   sm-width: 768
-  md-name: b4andafter_02-md
   md-width: 992
-  lg-name: b4andafter_02-lg
   lg-width: 1200
   description: B4 & After 2
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_03-xs
+- name-base: b4andafter_03
   xs-width: 240
-  sm-name: b4andafter_03-sm
   sm-width: 323
-  md-name: b4andafter_03-md
   md-width: 560
-  lg-name: b4andafter_03-lg
   lg-width: 506
   description: B4 & After 3
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_04-xs
+- name-base: b4andafter_04
   xs-width: 480
-  sm-name: b4andafter_04-sm
   sm-width: 768
-  md-name: b4andafter_04-md
   md-width: 992
-  lg-name: b4andafter_04-lg
   lg-width: 1200
   description: B4 & After 4
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_05-xs
+- name-base: b4andafter_05
   xs-width: 240
-  sm-name: b4andafter_05-sm
   sm-width: 323
-  md-name: b4andafter_05-md
   md-width: 560
-  lg-name: b4andafter_05-lg
   lg-width: 506
   description: B4 & After 5
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_06-xs
+- name-base: b4andafter_06
   xs-width: 480
-  sm-name: b4andafter_06-sm
   sm-width: 768
-  md-name: b4andafter_06-md
   md-width: 992
-  lg-name: b4andafter_06-lg
   lg-width: 1200
   description: B4 & After 6
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_07-xs
+- name-base: b4andafter_07
   xs-width: 240
-  sm-name: b4andafter_07-sm
   sm-width: 323
-  md-name: b4andafter_07-md
   md-width: 560
-  lg-name: b4andafter_07-lg
   lg-width: 506
   description: B4 & After 7
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_08-xs
+- name-base: b4andafter_08
   xs-width: 480
-  sm-name: b4andafter_08-sm
   sm-width: 768
-  md-name: b4andafter_08-md
   md-width: 992
-  lg-name: b4andafter_08-lg
   lg-width: 1200
   description: B4 & After 8
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_09-xs
+- name-base: b4andafter_09
   xs-width: 240
-  sm-name: b4andafter_09-sm
   sm-width: 323
-  md-name: b4andafter_09-md
   md-width: 560
-  lg-name: b4andafter_09-lg
   lg-width: 506
   description: B4 & After 9
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_10-xs
+- name-base: b4andafter_10
   xs-width: 480
-  sm-name: b4andafter_10-sm
   sm-width: 768
-  md-name: b4andafter_10-md
   md-width: 992
-  lg-name: b4andafter_10-lg
   lg-width: 1200
   description: B4 & After 10
   optimal-width: 1200
   optimal-height: 917
   extension: jpg
-- xs-name: b4andafter_11-xs
+- name-base: b4andafter_11
   xs-width: 240
-  sm-name: b4andafter_11-sm
   sm-width: 323
-  md-name: b4andafter_11-md
   md-width: 560
-  lg-name: b4andafter_11-lg
   lg-width: 506
   description: B4 & After 11
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_12-xs
+- name-base: b4andafter_12
   xs-width: 480
-  sm-name: b4andafter_12-sm
   sm-width: 768
-  md-name: b4andafter_12-md
   md-width: 992
-  lg-name: b4andafter_12-lg
   lg-width: 1200
   description: B4 & After 12
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_13-xs
+- name-base: b4andafter_13
   xs-width: 240
-  sm-name: b4andafter_13-sm
   sm-width: 323
-  md-name: b4andafter_13-md
   md-width: 560
-  lg-name: b4andafter_13-lg
   lg-width: 506
   description: B4 & After 13
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_14-xs
+- name-base: b4andafter_14
   xs-width: 480
-  sm-name: b4andafter_14-sm
   sm-width: 768
-  md-name: b4andafter_14-md
   md-width: 992
-  lg-name: b4andafter_14-lg
   lg-width: 1200
   description: B4 & After 14
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_15-xs
+- name-base: b4andafter_15
   xs-width: 240
-  sm-name: b4andafter_15-sm
   sm-width: 323
-  md-name: b4andafter_15-md
   md-width: 560
-  lg-name: b4andafter_15-lg
   lg-width: 506
   description: B4 & After 15
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_16-xs
+- name-base: b4andafter_16
   xs-width: 480
-  sm-name: b4andafter_16-sm
   sm-width: 768
-  md-name: b4andafter_16-md
   md-width: 992
-  lg-name: b4andafter_16-lg
   lg-width: 1200
   description: B4 & After 16
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_17-xs
+- name-base: b4andafter_17
   xs-width: 480
-  sm-name: b4andafter_17-sm
   sm-width: 768
-  md-name: b4andafter_17-md
   md-width: 992
-  lg-name: b4andafter_17-lg
   lg-width: 1200
   description: B4 & After 17
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- xs-name: b4andafter_18-xs
+- name-base: b4andafter_18
   xs-width: 480
-  sm-name: b4andafter_18-sm
   sm-width: 768
-  md-name: b4andafter_18-md
   md-width: 992
-  lg-name: b4andafter_18-lg
   lg-width: 1200
   description: B4 & After 18
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_19-xs
+- name-base: b4andafter_19
   xs-width: 480
-  sm-name: b4andafter_19-sm
   sm-width: 768
-  md-name: b4andafter_19-md
   md-width: 992
-  lg-name: b4andafter_19-lg
   lg-width: 1200
   description: B4 & After 19
   optimal-width: 1200
   optimal-height: 937
   extension: jpg
-- xs-name: b4andafter_20-xs
+- name-base: b4andafter_20
   xs-width: 480
-  sm-name: b4andafter_20-sm
   sm-width: 768
-  md-name: b4andafter_20-md
   md-width: 992
-  lg-name: b4andafter_20-lg
   lg-width: 1200
   description: B4 & After 20
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- xs-name: b4andafter_21-xs
+- name-base: b4andafter_21
   xs-width: 240
-  sm-name: b4andafter_21-sm
   sm-width: 323
-  md-name: b4andafter_21-md
   md-width: 560
-  lg-name: b4andafter_21-lg
   lg-width: 506
   description: B4 & After 21
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- xs-name: b4andafter_22-xs
+- name-base: b4andafter_22
   xs-width: 480
-  sm-name: b4andafter_22-sm
   sm-width: 768
-  md-name: b4andafter_22-md
   md-width: 992
-  lg-name: b4andafter_22-lg
   lg-width: 1200
   description: B4 & After 22
   optimal-width: 1200

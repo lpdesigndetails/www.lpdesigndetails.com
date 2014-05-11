@@ -1,10 +1,7 @@
-- xs-name: index_01-xs
+- name-base: index_01
   xs-width: 480
-  sm-name: index_01-sm
   sm-width: 768
-  md-name: index_01-md
   md-width: 992
-  lg-name: index_01-lg
   lg-width: 1200
   description: Index 01
   optimal-width: 1200

@@ -6,7 +6,7 @@
   </ol>
   <div class="carousel-inner container-fluid">
 {% for image in include.images %}
-    <div id="img_{{ image.xs-name }}" class="backgroundsize item{% if forloop.index0 == 0%} active{% endif %}">
+    <div id="img_{{ image.name-base }}" class="backgroundsize item{% if forloop.index0 == 0%} active{% endif %}">
     </div>
 {% endfor %}
   </div>

@@ -1,70 +1,52 @@
-- xs-name: cad_01-xs
+- name-base: cad_01
   xs-width: 480
-  sm-name: cad_01-sm
   sm-width: 768
-  md-name: cad_01-md
   md-width: 909
-  lg-name: cad_01-lg
   lg-width: 909
   description: CAD 1
   optimal-width: 909
   optimal-height: 781
   extension: jpg
-- xs-name: cad_02-xs
+- name-base: cad_02
   xs-width: 480
-  sm-name: cad_02-sm
   sm-width: 768
-  md-name: cad_02-md
   md-width: 992
-  lg-name: cad_02-lg
   lg-width: 1200
   description: CAD 2
   optimal-width: 1200
   optimal-height: 907
   extension: jpg
-- xs-name: cad_03-xs
+- name-base: cad_03
   xs-width: 480
-  sm-name: cad_03-sm
   sm-width: 768
-  md-name: cad_03-md
   md-width: 992
-  lg-name: cad_03-lg
   lg-width: 1200
   description: CAD 3
   optimal-width: 1200
   optimal-height: 726
   extension: jpg
-- xs-name: cad_04-xs
+- name-base: cad_04
   xs-width: 480
-  sm-name: cad_04-sm
   sm-width: 768
-  md-name: cad_04-md
   md-width: 992
-  lg-name: cad_04-lg
   lg-width: 1200
   description: CAD 4
   optimal-width: 1200
   optimal-height: 477
   extension: jpg
-- xs-name: cad_05-xs
+- name-base: cad_05
   xs-width: 480
-  sm-name: cad_05-sm
   sm-width: 768
-  md-name: cad_05-md
   md-width: 992
-  lg-name: cad_05-lg
   lg-width: 1200
   description: CAD 5
   optimal-width: 1200
   optimal-height: 596
   extension: jpg
-- xs-name: cad_06-xs
+- name-base: cad_06
   xs-width: 480
-  sm-name: cad_06-sm
   sm-width: 768
-  md-name: cad_06-md
   md-width: 992
-  lg-name: cad_06-lg
   lg-width: 1200
   description: CAD 6
   optimal-width: 1200

@@ -1,70 +1,52 @@
-- xs-name: portfolio_residential_01-xs
+- name-base: portfolio_residential_01
   xs-width: 240
-  sm-name: portfolio_residential_01-sm
   sm-width: 323
-  md-name: portfolio_residential_01-md
   md-width: 560
-  lg-name: portfolio_residential_01-lg
   lg-width: 506
   description: Portfolio - Residential 01
   optimal-width: 560
   optimal-height: 747
   extension: jpg
-- xs-name: portfolio_residential_02-xs
+- name-base: portfolio_residential_02
   xs-width: 480
-  sm-name: portfolio_residential_02-sm
   sm-width: 768
-  md-name: portfolio_residential_02-md
   md-width: 992
-  lg-name: portfolio_residential_02-lg
   lg-width: 1200
   description: Portfolio - Residential 02
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- xs-name: portfolio_residential_03-xs
+- name-base: portfolio_residential_03
   xs-width: 240
-  sm-name: portfolio_residential_03-sm
   sm-width: 323
-  md-name: portfolio_residential_03-md
   md-width: 560
-  lg-name: portfolio_residential_03-lg
   lg-width: 506
   description: Portfolio - Residential 03
   optimal-width: 560
   optimal-height: 747
   extension: jpg
-- xs-name: portfolio_residential_04-xs
+- name-base: portfolio_residential_04
   xs-width: 480
-  sm-name: portfolio_residential_04-sm
   sm-width: 768
-  md-name: portfolio_residential_04-md
   md-width: 992
-  lg-name: portfolio_residential_04-lg
   lg-width: 1200
   description: Portfolio - Residential 04
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- xs-name: portfolio_residential_05-xs
+- name-base: portfolio_residential_05
   xs-width: 240
-  sm-name: portfolio_residential_05-sm
   sm-width: 323
-  md-name: portfolio_residential_05-md
   md-width: 560
-  lg-name: portfolio_residential_05-lg
   lg-width: 506
   description: Portfolio - Residential 05
   optimal-width: 560
   optimal-height: 747
   extension: jpg
-- xs-name: portfolio_residential_06-xs
+- name-base: portfolio_residential_06
   xs-width: 480
-  sm-name: portfolio_residential_06-sm
   sm-width: 768
-  md-name: portfolio_residential_06-md
   md-width: 992
-  lg-name: portfolio_residential_06-lg
   lg-width: 1200
   description: Portfolio - Residential 06
   optimal-width: 1200

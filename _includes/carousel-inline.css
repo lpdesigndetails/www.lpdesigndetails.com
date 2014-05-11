@@ -1,31 +1,31 @@
 <style>
 {% for image in include.images %}
-#img_{{ image.xs-name }} {
+#img_{{ image.name-base }} {
   width: 100%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image:url('{{ site.baseurl }}public/images/{{ image.xs-name }}.{{ image.extension }}');
+  background-image:url('{{ site.baseurl }}public/images/{{ image.name-base }}-lg.{{ image.extension }}');
 }
 @media (min-width: 480px) {
-  #img_{{ image.xs-name }} {
-    background-image:url('{{ site.baseurl }}public/images/{{ image.xs-name }}.{{ image.extension }}');
+  #img_{{ image.name-base }} {
+    background-image:url('{{ site.baseurl }}public/images/{{ image.name-base }}-xs.{{ image.extension }}');
   }
 }
 @media (min-width: 768px) {
-  #img_{{ image.xs-name }} {
-    background-image:url('{{ site.baseurl }}public/images/{{ image.sm-name }}.{{ image.extension }}');
+  #img_{{ image.name-base }} {
+    background-image:url('{{ site.baseurl }}public/images/{{ image.name-base }}-sm.{{ image.extension }}');
   }
 }
 @media (min-width: 992px) {
-  #img_{{ image.xs-name }} {
-    background-image:url('{{ site.baseurl }}public/images/{{ image.md-name }}.{{ image.extension }}');
+  #img_{{ image.name-base }} {
+    background-image:url('{{ site.baseurl }}public/images/{{ image.name-base }}-md.{{ image.extension }}');
   }
 }
 @media (min-width: 1200px) {
-  #img_{{ image.xs-name }} {
-    background-image:url('{{ site.baseurl }}public/images/{{ image.lg-name }}.{{ image.extension }}');
+  #img_{{ image.name-base }} {
+    background-image:url('{{ site.baseurl }}public/images/{{ image.name-base }}-lg.{{ image.extension }}');
   }
 }
 {% endfor %}

@@ -1,70 +1,52 @@
-- xs-name: portfolio_commercial_07-xs
+- name-base: portfolio_commercial_07
   xs-width: 480
-  sm-name: portfolio_commercial_07-sm
   sm-width: 768
-  md-name: portfolio_commercial_07-md
   md-width: 992
-  lg-name: portfolio_commercial_07-lg
   lg-width: 1200
   description: Portfolio - Commercial 07
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- xs-name: portfolio_commercial_08-xs
+- name-base: portfolio_commercial_08
   xs-width: 480
-  sm-name: portfolio_commercial_08-sm
   sm-width: 768
-  md-name: portfolio_commercial_08-md
   md-width: 992
-  lg-name: portfolio_commercial_08-lg
   lg-width: 1200
   description: Portfolio - Commercial 08
   optimal-width: 1200
   optimal-height: 927
   extension: jpg
-- xs-name: portfolio_commercial_09-xs
+- name-base: portfolio_commercial_09
   xs-width: 480
-  sm-name: portfolio_commercial_09-sm
   sm-width: 768
-  md-name: portfolio_commercial_09-md
   md-width: 992
-  lg-name: portfolio_commercial_09-lg
   lg-width: 1200
   description: Portfolio - Commercial 09
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- xs-name: portfolio_commercial_10-xs
+- name-base: portfolio_commercial_10
   xs-width: 480
-  sm-name: portfolio_commercial_10-sm
   sm-width: 768
-  md-name: portfolio_commercial_10-md
   md-width: 992
-  lg-name: portfolio_commercial_10-lg
   lg-width: 1200
   description: Portfolio - Commercial 10
   optimal-width: 1200
   optimal-height: 927
   extension: jpg
-- xs-name: portfolio_commercial_11-xs
+- name-base: portfolio_commercial_11
   xs-width: 480
-  sm-name: portfolio_commercial_11-sm
   sm-width: 768
-  md-name: portfolio_commercial_11-md
   md-width: 992
-  lg-name: portfolio_commercial_11-lg
   lg-width: 1200
   description: Portfolio - Commercial 11
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- xs-name: portfolio_commercial_12-xs
+- name-base: portfolio_commercial_12
   xs-width: 480
-  sm-name: portfolio_commercial_12-sm
   sm-width: 768
-  md-name: portfolio_commercial_12-md
   md-width: 992
-  lg-name: portfolio_commercial_12-lg
   lg-width: 1200
   description: Portfolio - Commercial 12
   optimal-width: 1200

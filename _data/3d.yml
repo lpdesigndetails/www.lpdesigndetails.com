@@ -1,82 +1,61 @@
-- xs-name: 3d_01-xs
+- name-base: 3d_01
   xs-width: 480
-  sm-name: 3d_01-sm
   sm-width: 768
-  md-name: 3d_01-md
   md-width: 992
-  lg-name: 3d_01-lg
   lg-width: 1024
   description: 3D 1
   optimal-width: 1024
   optimal-height: 601
   extension: jpg
-- xs-name: 3d_02-xs
+- name-base: 3d_02
   xs-width: 480
-  sm-name: 3d_02-sm
   sm-width: 768
-  md-name: 3d_02-md
   md-width: 992
-  lg-name: 3d_02-lg
   lg-width: 1024
   description: 3D 2
   optimal-width: 1024
   optimal-height: 768
   extension: jpg
-- xs-name: 3d_03-xs
+- name-base: 3d_03
   xs-width: 480
-  sm-name: 3d_03-sm
   sm-width: 768
-  md-name: 3d_03-md
   md-width: 992
-  lg-name: 3d_03-lg
   lg-width: 1200
   description: 3D 3
   optimal-width: 1200
   optimal-height: 730
   extension: jpg
-- xs-name: 3d_04-xs
+- name-base: 3d_04
   xs-width: 256
-  sm-name: 3d_04-sm
   sm-width: 345
-  md-name: 3d_04-md
   md-width: 598
-  lg-name: 3d_04-lg
   lg-width: 540
   description: 3D 4
   optimal-width: 540
   optimal-height: 674
   extension: jpg
-- xs-name: 3d_05-xs
+- name-base: 3d_05
   xs-width: 480
-  sm-name: 3d_05-sm
   sm-width: 768
-  md-name: 3d_05-md
   md-width: 964
-  lg-name: 3d_05-lg
   lg-width: 964
   description: 3D 5
   optimal-width: 964
   optimal-height: 579
   extension: jpg
-- xs-name: 3d_06-xs
+- name-base: 3d_06
   xs-width: 480
-  sm-name: 3d_06-sm
   sm-width: 768
-  md-name: 3d_06-md
   md-width: 992
-  lg-name: 3d_06-lg
   lg-width: 999
   description: 3D 6
   optimal-width: 999
   optimal-height: 565
   extension: jpg
-- xs-name: 3d_07-xs
+- name-base: 3d_07
   xs-width: 480
-  sm-name: 3d_07-sm
   sm-width: 768
-  md-name: 3d_07-md
   md-width: 985
-  lg-name: 3d_07-lg
   lg-width: 985
   description: 3D 7
   optimal-width: 985
