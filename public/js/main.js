@@ -5,4 +5,7 @@ $(document).ready(function() {
   Hammer($('.carousel-inner').get(0)).on('dragright', function() {
     $('.left.carousel-control').click();
   });
+  $('.carousel').carousel({
+    interval: false
+  })
 });
