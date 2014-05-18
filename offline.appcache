@@ -1,5 +1,7 @@
+---
+---
 CACHE MANIFEST
-# Build Time: 2014-05-17 22:08:56 -0500
+# Build Time: {{ site.time }}
 
 CACHE:
 
