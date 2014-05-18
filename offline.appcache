@@ -342,16 +342,6 @@ public/vendor/background-size-polyfill/images/pattern.png
 public/vendor/background-size-polyfill/images/propylaea.jpg
 public/vendor/background-size-polyfill/index.html
 public/vendor/background-size-polyfill/package.json
-public/vendor/background-size-polyfill/src/intro.htc
-public/vendor/background-size-polyfill/src/outro.htc
-public/vendor/background-size-polyfill/src/outro.min.htc
-public/vendor/background-size-polyfill/src/script.js
-public/vendor/background-size-polyfill/test/index.html
-public/vendor/background-size-polyfill/test/jquery.js
-public/vendor/background-size-polyfill/test/qunit.css
-public/vendor/background-size-polyfill/test/qunit.js
-public/vendor/background-size-polyfill/test/test.css
-public/vendor/background-size-polyfill/test/test.js
 public/vendor/bootstrap/Gruntfile.js
 public/vendor/bootstrap/LICENSE
 public/vendor/bootstrap/README.md
