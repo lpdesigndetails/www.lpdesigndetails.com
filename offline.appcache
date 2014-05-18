@@ -322,10 +322,16 @@ public/vendor/Font-Awesome/composer.json
 public/vendor/Font-Awesome/css/font-awesome.css
 public/vendor/Font-Awesome/css/font-awesome.min.css
 public/vendor/Font-Awesome/fonts/FontAwesome.otf
+public/vendor/Font-Awesome/fonts/FontAwesome.otf
 public/vendor/Font-Awesome/fonts/fontawesome-webfont.eot
+public/vendor/Font-Awesome/fonts/fontawesome-webfont.eot?v=4.0.3
+public/vendor/Font-Awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3
 public/vendor/Font-Awesome/fonts/fontawesome-webfont.svg
+public/vendor/Font-Awesome/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular
 public/vendor/Font-Awesome/fonts/fontawesome-webfont.ttf
+public/vendor/Font-Awesome/fonts/fontawesome-webfont.ttf?v=4.0.3
 public/vendor/Font-Awesome/fonts/fontawesome-webfont.woff
+public/vendor/Font-Awesome/fonts/fontawesome-webfont.woff?v=4.0.3
 public/vendor/Font-Awesome/package.json
 public/vendor/background-size-polyfill/.htaccess
 public/vendor/background-size-polyfill/AUTHORS
