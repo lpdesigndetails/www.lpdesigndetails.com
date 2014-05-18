@@ -1,5 +1,5 @@
 ---
 ---
 .backgroundsize {
-  -ms-behavior: url('{{ site.baseurl }}public/vendor/background-size-polyfill/backgroundsize.min.htc');
+  -ms-behavior: url('../../public/vendor/background-size-polyfill/backgroundsize.min.htc');
 }

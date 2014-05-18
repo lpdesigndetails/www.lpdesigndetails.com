@@ -2,6 +2,7 @@
 permalink: staging/
 layout: default
 title: Staging
+relative_path_to_root: '../'
 ---
-{% include carousel-inline.css images=site.data.staging %}
+{% include carousel-inline.css images=site.data.staging relative_path_to_root='../' %}
 {% include carousel.html images=site.data.staging %}

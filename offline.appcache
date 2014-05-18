@@ -375,6 +375,3 @@ public/vendor/jquery/dist/jquery.js
 public/vendor/jquery/dist/jquery.min.js
 public/vendor/jquery/dist/jquery.min.map
 robots.txt
-
-FALLBACK:
-/ 404.html
