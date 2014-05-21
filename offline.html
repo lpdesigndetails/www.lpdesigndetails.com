@@ -24,7 +24,7 @@ permalink: offline/
         }
         // Condidions to do this only on links to your own app
         // if you want all links, use if('href' in curnode) instead.
-        if( 'href' in curnode && curnode.pathname !== "/portfolio/" &&  // is a link
+        if( 'href' in curnode && curnode.pathname.substring( curnode.pathname.length - '/portfolio/'.length, curnode.pathname.length ) !== '/portfolio/' &&  // is a link
             (chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
             (	!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
                 chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain
