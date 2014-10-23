@@ -1,6 +1,9 @@
 lpdesigndetails.github.io
 =========================
 
+```
+docker run --volume `pwd`:/gh-pages --publish 4000:4000 lukewpatterson:lpdesigndetails
+```
 
 
 // Extra small screen / phone

@@ -114,6 +114,8 @@ RUN gem install github-pages
 
 EXPOSE 4000
 VOLUME /gh-pages
-
 WORKDIR /gh-pages
+
+COPY / /gh-pages
+
 CMD ["jekyll", "serve", "--force_polling"]
