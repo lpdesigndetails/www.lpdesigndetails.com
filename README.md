@@ -2,7 +2,7 @@ lpdesigndetails.github.io
 =========================
 
 ```
-docker run --volume `pwd`:/gh-pages --publish 4000:4000 lukewpatterson:lpdesigndetails
+docker run --volume `pwd`:/gh-pages --publish 4000:4000 lukewpatterson/lpdesigndetails
 ```
 
 
