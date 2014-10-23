@@ -111,6 +111,7 @@ RUN curl -SLO "http://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x
 
 
 RUN gem install github-pages
+RUN npm install --global bower
 
 EXPOSE 4000
 VOLUME /gh-pages
