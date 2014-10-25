@@ -109,3 +109,10 @@ html,body,#wrapper {
 .dropdown-menu > .active > a {
   color: #555;
 }
+
+a.navbar-brand > img {
+  margin-top: -15px;
+  height: 60px;
+  position: relative;
+  z-index: 10;
+}
