@@ -8,8 +8,9 @@
   <title>{{ page.title }}</title>
 
   <link href="{{ page.relative_path_to_root }}public/vendor/bootstrap-customized-3.2.0/css/bootstrap.css" rel="stylesheet">
-  <link href="{{ page.relative_path_to_root }}public/css/main.css" rel="stylesheet">
+  <link href="{{ page.relative_path_to_root }}public/css/{% if page.permalink == 'bio/' %}bio.css{% else %}main.css{% endif %}" rel="stylesheet">
   <link rel="stylesheet" href="{{ page.relative_path_to_root }}public/vendor/Font-Awesome/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Marcellus+SC|Cinzel' rel='stylesheet' type='text/css'>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -79,7 +80,7 @@
   <div id="content">
     {{ content }}
   </div>
-  <div id="footer" class="navbar navbar-default navbar-fixed-bottom">
+  <div id="footer" class="navbar navbar-default {% if page.permalink != 'bio/' %}navbar-fixed-bottom{% endif %}">
     <div class="container">
       <p class="text-muted text-right copyright">Copyright 2015, LP Design Details LLC</p>
     </div>
@@ -88,7 +89,14 @@
 <script src="{{ page.relative_path_to_root }}public/vendor/jquery/dist/jquery.js"></script>
 <script src="{{ page.relative_path_to_root }}public/vendor/bootstrap-customized-3.2.0/js/bootstrap.js"></script>
 <script src="{{ page.relative_path_to_root }}public/vendor/hammerjs/hammer.js"></script>
+<script src="{{ page.relative_path_to_root }}public/vendor/FlowType.JS/flowtype.js"></script>
 <script src="{{ page.relative_path_to_root }}public/js/main.js"></script>
+<script>
+  $('#bio_container').flowtype({
+    minFont : 16,
+    maxFont : 30
+  });
+</script>
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;

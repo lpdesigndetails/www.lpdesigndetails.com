@@ -4,31 +4,48 @@
 #bio_container > h1,h2,h3,h4,h5,h6,p {
   line-height: 1.45;
 }
-#bio_container > h1 { font-size: 1.5em; }
-
-
-/* http://stackoverflow.com/a/5776719 */
-
-html,body,#wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-#wrapper {
-  position: relative;
+#bio_container > h1 {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Marcellus SC', serif;
 }
 
-#header, #content, #footer {
-  position: absolute;
+#bio_container > blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 18px;
 }
+
+#bio_container > blockquote:after {
+  content: no-close-quote;
+}
+
+#bio_container blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+#bio_container > blockquote > p {
+  display: inline;
+}
+
+
+.navbar {
+  margin-bottom: 0px;
+}
+
 
 #header {
   height: 50px;
-  width: 100%;
-}
-#content {
-  top: 50px;
-  bottom: 40px;
   width: 100%;
 }
 #footer {
@@ -73,22 +90,6 @@ html,body,#wrapper {
   }
 }
 
-/* don't show footer on mobile */
-@media (max-width: 767px) {
-  body {
-    margin-bottom: 0px;
-  }
-
-  #content {
-    bottom: 0px;
-  }
-
-  #footer {
-    display: none;
-    height: 0px;
-    min-height: 0px;
-  }
-}
 
 .carousel-inner.container-fluid {
   padding-right: 0px;
