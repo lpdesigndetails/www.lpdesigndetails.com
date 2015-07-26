@@ -3,7 +3,6 @@
 baseurl: /
 encoding: utf-8
 lsi: false
-highlighter: true
 safe: true
 timezone: America/Chicago
 exclude: [ node_modules/, public/vendor/Font-Awesome/src/ ]
