@@ -1,0 +1,129 @@
+#testimonials_container {
+  font-size: 18px;
+}
+#testimonials_container > h1,h2,h3,h4,h5,h6,p {
+  line-height: 1.45;
+}
+#testimonials_container > h1 {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Marcellus SC', serif;
+}
+
+#testimonials_container > blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 18px;
+}
+
+#testimonials_container > blockquote:after {
+  content: no-close-quote;
+}
+
+#testimonials_container blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+#testimonials_container > blockquote > p:first-of-type {
+  display: inline;
+}
+
+#testimonials_container > blockquote > p:nth-of-type(2) {
+  margin-top: 10px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+
+#header {
+  height: 50px;
+  width: 100%;
+}
+#footer {
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  min-height: 40px;
+}
+
+.carousel, .carousel-inner {
+  height: 100%;
+}
+
+
+
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #FFFF00;
+  color: #000;
+  padding: 0.2em 0;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 8px;
+}
+
+.contact-list {
+  margin-top: 20px;
+}
+
+.text-muted {
+  color: #E2E2E2;
+}
+
+@media (min-width: 768px) {
+
+  .contact-list {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+}
+
+
+.carousel-inner.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* non-transparent background, now that drop-down menu doesn't push down content */
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  background-color: #f8f8f8;
+}
+
+/* don't want gap between header and drop-down menu, more apparent now that drop-down menu doesn't push down content */
+/* then push it up another pixel because now that have non-clear background, it covers the navbar border otherwise */
+.navbar-nav {
+  margin-top: -1px;
+}
+
+/* don't show spaces between drop down menu and other menu lis, now that background can't be clear because we aren't relative in content id'd area */
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.dropdown-menu > .active > a {
+  color: #555;
+}
+
+a.navbar-brand > img {
+  margin-top: -15px;
+  height: 60px;
+  position: relative;
+  z-index: 10;
+}

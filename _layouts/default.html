@@ -8,7 +8,7 @@
   <title>{{ page.title }}</title>
 
   <link href="{{ page.relative_path_to_root }}public/vendor/bootstrap-customized-3.2.0/css/bootstrap.css" rel="stylesheet">
-  <link href="{{ page.relative_path_to_root }}public/css/{% if page.permalink == 'bio/' %}bio.css{% else %}main.css{% endif %}" rel="stylesheet">
+  <link href="{{ page.relative_path_to_root }}public/css/{% if page.permalink == 'bio/' %}bio.css{% elsif page.permalink == 'testimonials/' %}testimonials.css{% else %}main.css{% endif %}" rel="stylesheet">
   <link rel="stylesheet" href="{{ page.relative_path_to_root }}public/vendor/Font-Awesome/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Marcellus+SC|Cinzel' rel='stylesheet' type='text/css'>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -74,13 +74,16 @@
           <li{% if page.permalink == 'b4andafter/' %} class="active"{% endif %}>
           <a href="{{ page.relative_path_to_root }}b4andafter/">B4 & After</a>
           </li>
+          <li{% if page.permalink == 'testimonials/' %} class="active"{% endif %}>
+          <a href="{{ page.relative_path_to_root }}testimonials/">Testimonials</a>
+          </li>
         </ul>
       </div>
   </nav>
   <div id="content">
     {{ content }}
   </div>
-  <div id="footer" class="navbar navbar-default {% if page.permalink != 'bio/' %}navbar-fixed-bottom{% endif %}">
+  <div id="footer" class="navbar navbar-default {% if (page.permalink != 'bio/') and (page.permalink != 'testimonials/') %}navbar-fixed-bottom{% endif %}">
     <div class="container">
       <p class="text-muted text-right copyright">Copyright 2016, LP Design Details LLC</p>
     </div>
@@ -93,6 +96,10 @@
 <script src="{{ page.relative_path_to_root }}public/js/main.js"></script>
 <script>
   $('#bio_container').flowtype({
+    minFont : 16,
+    maxFont : 30
+  });
+  $('.testimonial').flowtype({
     minFont : 16,
     maxFont : 30
   });
