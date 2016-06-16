@@ -8,7 +8,7 @@
   background-position: center center;
   background-image:url('{{ include.relative_path_to_root }}public/images/{{ image.name-base }}-lg.{{ image.extension }}');
 }
-@media (min-width: 480px) {
+@media (min-width: 0px) {
   #img_{{ image.name-base }} {
     background-image:url('{{ include.relative_path_to_root }}public/images/{{ image.name-base }}-xs.{{ image.extension }}');
   }

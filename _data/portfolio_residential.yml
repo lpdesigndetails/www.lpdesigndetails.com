@@ -52,3 +52,57 @@
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
+- name-base: portfolio_residential_17
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 17
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
+- name-base: portfolio_residential_18
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 18
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
+- name-base: portfolio_residential_19
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 19
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
+- name-base: portfolio_residential_20
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 20
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
+- name-base: portfolio_residential_21
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 21
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
+- name-base: portfolio_residential_22
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 22
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg

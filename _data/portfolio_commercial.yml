@@ -52,3 +52,66 @@
   optimal-width: 1200
   optimal-height: 927
   extension: jpg
+- name-base: portfolio_commercial_25
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 25
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg
+- name-base: portfolio_commercial_26
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 26
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg
+- name-base: portfolio_commercial_27
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 27
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg
+- name-base: portfolio_commercial_28
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 28
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg
+- name-base: portfolio_commercial_29
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 29
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg
+- name-base: portfolio_commercial_30
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 30
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg
+- name-base: portfolio_commercial_31
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Commercial 31
+  optimal-width: 1200
+  optimal-height: 927
+  extension: jpg

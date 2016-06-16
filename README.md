@@ -56,6 +56,11 @@ to size
 convert index_1_original.jpg -resize 768x512 index_0_sm.jpg
 
 
+convert portfolio_commercial_31-original_.jpg -resize '480' portfolio_commercial_31-xs.jpg &&
+convert portfolio_commercial_31-original_.jpg -resize '768' portfolio_commercial_31-sm.jpg &&
+convert portfolio_commercial_31-original_.jpg -resize '992' portfolio_commercial_31-md.jpg && 
+convert portfolio_commercial_31-original_.jpg -resize '1200' portfolio_commercial_31-lg.jpg
+
 
 Sauce Targets:
 
