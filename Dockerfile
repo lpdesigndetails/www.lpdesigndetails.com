@@ -120,4 +120,4 @@ WORKDIR /gh-pages
 
 COPY / /gh-pages
 
-CMD ["jekyll", "serve", "--no-watch"]
+CMD ["jekyll", "serve", "--host", "0.0.0.0"]
