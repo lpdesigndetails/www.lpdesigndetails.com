@@ -1,54 +1,54 @@
-- name-base: portfolio_specialprojects_13
+- name-base: portfolio_specialprojects_01
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Portfolio - Special Projects 13
+  description: Portfolio - Special Projects 01
   optimal-width: 1200
   optimal-height: 783
   extension: jpg
-- name-base: portfolio_specialprojects_14
+- name-base: portfolio_specialprojects_02
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Portfolio - Special Projects 14
+  description: Portfolio - Special Projects 02
   optimal-width: 1200
   optimal-height: 783
   extension: jpg
-- name-base: portfolio_specialprojects_15
+- name-base: portfolio_specialprojects_03
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Portfolio - Special Projects 15
+  description: Portfolio - Special Projects 03
   optimal-width: 1200
   optimal-height: 783
   extension: jpg
-- name-base: portfolio_specialprojects_16
+- name-base: portfolio_specialprojects_04
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Portfolio - Special Projects 16
+  description: Portfolio - Special Projects 04
   optimal-width: 1200
   optimal-height: 783
   extension: jpg
-- name-base: portfolio_specialprojects_23
+- name-base: portfolio_specialprojects_05
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Portfolio - Special Projects 23
+  description: Portfolio - Special Projects 05
   optimal-width: 1200
   optimal-height: 783
   extension: jpg
-- name-base: portfolio_specialprojects_24
+- name-base: portfolio_specialprojects_06
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Portfolio - Special Projects 24
+  description: Portfolio - Special Projects 06
   optimal-width: 1200
   optimal-height: 783
   extension: jpg
