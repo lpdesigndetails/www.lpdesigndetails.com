@@ -56,9 +56,12 @@
               </li>
             </ul>
           </li>
-          <li class="dropdown"{% if page.permalink == 'services/3d/' or page.permalink == 'services/3rs/' or page.permalink == 'services/staging/' %} class="active"{% endif %}>
+          <li class="dropdown"{% if page.permalink == 'services/designprocess/' or page.permalink == 'services/3d/' or page.permalink == 'services/3rs/' or page.permalink == 'services/staging/' %} class="active"{% endif %}>
             <a class="dropdown-toggle" data-toggle="dropdown" href="{{ page.relative_path_to_root }}services/">Services<span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li{% if page.permalink == 'services/designprocess/' %} class="active"{% endif %}>
+                <a href="{{ page.relative_path_to_root }}services/designprocess/">Design Process</a>
+              </li>
               <li{% if page.permalink == 'services/3d/' %} class="active"{% endif %}>
                 <a href="{{ page.relative_path_to_root }}services/3d/">3D</a>
               </li>
