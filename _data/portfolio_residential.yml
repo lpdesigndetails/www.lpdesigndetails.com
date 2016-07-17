@@ -106,3 +106,21 @@
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
+- name-base: portfolio_residential_13
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 13
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
+- name-base: portfolio_residential_14
+  xs-width: 480
+  sm-width: 768
+  md-width: 992
+  lg-width: 1200
+  description: Portfolio - Residential 14
+  optimal-width: 1200
+  optimal-height: 900
+  extension: jpg
