@@ -56,20 +56,22 @@
               </li>
             </ul>
           </li>
-          <li{% if page.permalink == 'services/' %} class="active"{% endif %}>
-            <a href="{{ page.relative_path_to_root }}services/">Services</a>
-          </li>
-          <li{% if page.permalink == '3d/' %} class="active"{% endif %}>
-            <a href="{{ page.relative_path_to_root }}3d/">3D</a>
-          </li>
-          <li{% if page.permalink == '3rs/' %} class="active"{% endif %}>
-            <a href="{{ page.relative_path_to_root }}3rs/">3 Rs</a>
-          </li>
-          <li{% if page.permalink == 'staging/' %} class="active"{% endif %}>
-            <a href="{{ page.relative_path_to_root }}staging/">Staging</a>
-          </li>
-          <li{% if page.permalink == 'b4andafter/' %} class="active"{% endif %}>
-            <a href="{{ page.relative_path_to_root }}b4andafter/">B4 & After</a>
+          <li class="dropdown"{% if page.permalink == 'services/3d/' or page.permalink == 'services/3rs/' or page.permalink == 'services/staging/' or page.permalink == 'services/b4andafter/' %} class="active"{% endif %}>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="{{ page.relative_path_to_root }}services/">Services<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li{% if page.permalink == 'services/3d/' %} class="active"{% endif %}>
+                <a href="{{ page.relative_path_to_root }}services/3d/">3D</a>
+              </li>
+              <li{% if page.permalink == 'services/3rs/' %} class="active"{% endif %}>
+              <a href="{{ page.relative_path_to_root }}services/3rs/">3 Rs</a>
+              </li>
+              <li{% if page.permalink == 'services/staging/' %} class="active"{% endif %}>
+              <a href="{{ page.relative_path_to_root }}services/staging/">Staging</a>
+              </li>
+              <li{% if page.permalink == 'services/b4andafter/' %} class="active"{% endif %}>
+              <a href="{{ page.relative_path_to_root }}services/b4andafter/">B4 & After</a>
+              </li>
+            </ul>
           </li>
           <li{% if page.permalink == 'testimonials/' %} class="active"{% endif %}>
             <a href="{{ page.relative_path_to_root }}testimonials/">Testimonials</a>

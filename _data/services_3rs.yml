@@ -1,90 +1,90 @@
-- name-base: 3rs_01
+- name-base: services_3rs_01
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: 3 Rs 1
+  description: Services - 3 Rs 1
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: 3rs_02
+- name-base: services_3rs_02
   xs-width: 201
   sm-width: 271
   md-width: 469
   lg-width: 424
-  description: 3 Rs 2
+  description: Services - 3 Rs 2
   optimal-width: 424
   optimal-height: 674
   extension: jpg
-- name-base: 3rs_03
+- name-base: services_3rs_03
   xs-width: 186
   sm-width: 250
   md-width: 433
   lg-width: 392
-  description: 3 Rs 3
+  description: Services - 3 Rs 3
   optimal-width: 392
   optimal-height: 675
   extension: jpg
-- name-base: 3rs_04
+- name-base: services_3rs_04
   xs-width: 199
   sm-width: 268
   md-width: 463
   lg-width: 419
-  description: 3 Rs 4
+  description: Services - 3 Rs 4
   optimal-width: 419
   optimal-height: 674
   extension: jpg
-- name-base: 3rs_05
+- name-base: services_3rs_05
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: 3 Rs 5
+  description: Services - 3 Rs 5
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: 3rs_06
+- name-base: services_3rs_06
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: 3 Rs 6
+  description: Services - 3 Rs 6
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: 3rs_07
+- name-base: services_3rs_07
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: 3 Rs 7
+  description: Services - 3 Rs 7
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: 3rs_08
+- name-base: services_3rs_08
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: 3 Rs 8
+  description: Services - 3 Rs 8
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: 3rs_09
+- name-base: services_3rs_09
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: 3 Rs 9
+  description: Services - 3 Rs 9
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: 3rs_10
+- name-base: services_3rs_10
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: 3 Rs 10
+  description: Services - 3 Rs 10
   optimal-width: 1200
   optimal-height: 800
   extension: jpg

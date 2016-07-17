@@ -1,63 +1,63 @@
-- name-base: 3d_01
+- name-base: services_3d_01
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1024
-  description: 3D 1
+  description: Services - 3D 1
   optimal-width: 1024
   optimal-height: 601
   extension: jpg
-- name-base: 3d_02
+- name-base: services_3d_02
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1024
-  description: 3D 2
+  description: Services - 3D 2
   optimal-width: 1024
   optimal-height: 768
   extension: jpg
-- name-base: 3d_03
+- name-base: services_3d_03
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: 3D 3
+  description: Services - 3D 3
   optimal-width: 1200
   optimal-height: 730
   extension: jpg
-- name-base: 3d_04
+- name-base: services_3d_04
   xs-width: 256
   sm-width: 345
   md-width: 598
   lg-width: 540
-  description: 3D 4
+  description: Services - 3D 4
   optimal-width: 540
   optimal-height: 674
   extension: jpg
-- name-base: 3d_05
+- name-base: services_3d_05
   xs-width: 480
   sm-width: 768
   md-width: 964
   lg-width: 964
-  description: 3D 5
+  description: Services - 3D 5
   optimal-width: 964
   optimal-height: 579
   extension: jpg
-- name-base: 3d_06
+- name-base: services_3d_06
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 999
-  description: 3D 6
+  description: Services - 3D 6
   optimal-width: 999
   optimal-height: 565
   extension: jpg
-- name-base: 3d_07
+- name-base: services_3d_07
   xs-width: 480
   sm-width: 768
   md-width: 985
   lg-width: 985
-  description: 3D 7
+  description: Services - 3D 7
   optimal-width: 985
   optimal-height: 643
   extension: jpg
