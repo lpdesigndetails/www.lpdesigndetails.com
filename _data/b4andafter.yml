@@ -1,198 +1,198 @@
-- name-base: services_b4andafter_01
+- name-base: b4andafter_01
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 1
+  description: B4 & After 1
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_02
+- name-base: b4andafter_02
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 2
+  description: B4 & After 2
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_03
+- name-base: b4andafter_03
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 3
+  description: B4 & After 3
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_04
+- name-base: b4andafter_04
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 4
+  description: B4 & After 4
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_05
+- name-base: b4andafter_05
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 5
+  description: B4 & After 5
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_06
+- name-base: b4andafter_06
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 6
+  description: B4 & After 6
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_07
+- name-base: b4andafter_07
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 7
+  description: B4 & After 7
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_08
+- name-base: b4andafter_08
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 8
+  description: B4 & After 8
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_09
+- name-base: b4andafter_09
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 9
+  description: B4 & After 9
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_10
+- name-base: b4andafter_10
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 10
+  description: B4 & After 10
   optimal-width: 1200
   optimal-height: 917
   extension: jpg
-- name-base: services_b4andafter_11
+- name-base: b4andafter_11
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 11
+  description: B4 & After 11
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_12
+- name-base: b4andafter_12
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 12
+  description: B4 & After 12
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_13
+- name-base: b4andafter_13
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 13
+  description: B4 & After 13
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_14
+- name-base: b4andafter_14
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 14
+  description: B4 & After 14
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_15
+- name-base: b4andafter_15
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 15
+  description: B4 & After 15
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_16
+- name-base: b4andafter_16
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 16
+  description: B4 & After 16
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_17
+- name-base: b4andafter_17
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 17
+  description: B4 & After 17
   optimal-width: 1200
   optimal-height: 900
   extension: jpg
-- name-base: services_b4andafter_18
+- name-base: b4andafter_18
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 18
+  description: B4 & After 18
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_19
+- name-base: b4andafter_19
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 19
+  description: B4 & After 19
   optimal-width: 1200
   optimal-height: 937
   extension: jpg
-- name-base: services_b4andafter_20
+- name-base: b4andafter_20
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 20
+  description: B4 & After 20
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
-- name-base: services_b4andafter_21
+- name-base: b4andafter_21
   xs-width: 240
   sm-width: 323
   md-width: 560
   lg-width: 506
-  description: Services - B4 & After 21
+  description: B4 & After 21
   optimal-width: 506
   optimal-height: 675
   extension: jpg
-- name-base: services_b4andafter_22
+- name-base: b4andafter_22
   xs-width: 480
   sm-width: 768
   md-width: 992
   lg-width: 1200
-  description: Services - B4 & After 22
+  description: B4 & After 22
   optimal-width: 1200
   optimal-height: 800
   extension: jpg
